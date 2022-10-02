@@ -1,0 +1,22 @@
+{
+  "name": "node-sms",
+  "version": "1.0.0",
+  "description": "Node串接訊息發送",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnworker/Node-sms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnworker/Node-sms/issues"
+  },
+  "homepage": "https://github.com/johnworker/Node-sms#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
