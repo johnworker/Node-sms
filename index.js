@@ -2,10 +2,12 @@ const express = require('express');
 
 const app = express();
 
-app.use('view engine', 'ejs')
+app.set('view engine', 'ejs')
+
+app.post('/')
 
 app.get('/',(req,res)=>{
-    res.send('Hello')
+    res.render('index.ejs')
 })
 
 app.listen(3000, ()=>{
