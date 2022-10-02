@@ -4,7 +4,7 @@
   "description": "Node串接訊息發送",
   "main": "index.js",
   "scripts": {
-    "devStart": "modemon index.js"
+    "devStart": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/johnworker/Node-sms#readme",
   "dependencies": {
+    "ejs": "^3.1.8",
     "express": "^4.18.1"
   },
   "devDependencies": {
