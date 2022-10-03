@@ -4,7 +4,11 @@ const app = express();
 
 app.set('view engine', 'ejs')
 
-app.post('/')
+app.use(express.urlencoded({extended:false}))
+
+app.post('/sendMessage',(req,res)=>{
+    console.log(req, body);
+})
 
 app.get('/',(req,res)=>{
     res.render('index.ejs')
